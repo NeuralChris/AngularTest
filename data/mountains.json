@@ -1,26 +1,26 @@
 [
 	{
-		"id": 1
+		"id": 1,
 		"name": "Breckenridge", 
 		"endpoint": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22breckenridge%2C%20co%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
 	}, 
 	{
-		"id": 2
+		"id": 2,
 		"name": "Keystone", 
 		"endpoint": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22keystone%2C%20co%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
 	}, 
 	{
-		"id": 3
+		"id": 3,
 		"name": "Copper", 
 		"endpoint": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22copper%20mountain%2C%20co%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
 	}, 
 	{
-		"id": 4
+		"id": 4,
 		"name": "Vail", 
 		"endpoint": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22vail%2C%20co%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
 	}, 
 	{
-		"id": 5
+		"id": 5,
 		"name": "Beaver Creek", 
 		"endpoint": "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22beaver%20creek%2C%20co%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys"
 	}
