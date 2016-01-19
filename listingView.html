@@ -1,4 +1,5 @@
 <ul>
-	<li ng-repeat="mountain in mountains" mountain="mountain">
+	<li ng-repeat="mountain in mountains">
+		<a href="#/{{mountain.id}}">{{mountain.name}}</a> ({{mountain.temperature}})
 	</li>
 </ul>

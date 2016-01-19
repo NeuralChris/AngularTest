@@ -20,7 +20,7 @@ angular.module( 'testApp.mountainListing', [ 'ngRoute', 'testApp' ])
 		// Grab the temperatures from the service.
 		mountains_data.forEach( function( mountain ) {
 			
-			mountains.find( mountain.endpoint, function( mountain_weather ) {
+			mountains.weather( mountain.endpoint, function( mountain_weather ) {
 		
 				mountain.temperature = mountain_weather.query.results.channel.item.condition.temp;
 				console.log( "Temp found for " + mountain.name + ": " + mountain.temperature );
